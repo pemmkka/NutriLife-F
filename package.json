@@ -1,0 +1,19 @@
+{
+  "dependencies": {
+    "@capacitor/android": "^8.3.4",
+    "@capacitor/cli": "^8.3.4",
+    "@capacitor/core": "^8.3.4",
+    "@google/genai": "^2.1.0"
+  },
+  "name": "project-essay-phoenix-2.0---backup---copy---copy",
+  "version": "1.0.0",
+  "description": "",
+  "main": "nutrisi.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs"
+}

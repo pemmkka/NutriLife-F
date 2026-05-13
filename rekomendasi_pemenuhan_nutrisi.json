@@ -1,0 +1,507 @@
+[
+    {   "jenis": "menu makanan",
+        "type": "Karbohidrat",
+        "name": "Nasi Merah Organik",
+        "image": "https://images.unsplash.com/photo-1512058560366-cd2429598642?auto=format&fit=crop&q=80&w=200",
+        "nutrition": { "karbo": "45g", "protein": "5g", "lemak": "1.6g", "mineral": "2g", "air": "120ml", "vitamin": "B1, B3, B6", "kkal": "215" },
+        "healing": "Menurunkan risiko diabetes tipe 2 dan menjaga kesehatan jantung."
+    },
+    {
+        "jenis": "menu makanan",
+        "type": "Protein",
+        "name": "Ikan Salmon Panggang",
+        "image": "https://images.unsplash.com/photo-1467003909585-2f8a72700288?auto=format&fit=crop&q=80&w=200",
+        "nutrition": { "karbo": "0g", "protein": "25g", "lemak": "13g", "mineral": "1.5g", "air": "60ml", "vitamin": "D, B12, Omega-3", "kkal": "208" },
+        "healing": "Mencegah peradangan sendi dan meningkatkan fungsi kognitif otak."
+    },
+    {
+        "jenis": "bahan makanan",
+        "type": "Lemak",
+        "name": "Buah Alpukat Segar",
+        "image": "https://images.unsplash.com/photo-1523049673857-eb18f1d7b578?auto=format&fit=crop&q=80&w=200",
+        "nutrition": { "karbo": "0.12g", "protein": "0.03g", "lemak": "0.21g", "mineral": "0.01g", "air": "1ml", "vitamin": "E, K, B5", "kkal": "2.34" },
+        "healing": "Membantu penyerapan vitamin larut lemak dan menurunkan kolesterol.",
+        "menu_rekomendasi": "Smoothie Alpukat Mentega"
+    },
+    {
+        "jenis": "menu makanan",
+        "type": "Mineral",
+        "name": "Bayam Hijau Rebus",
+        "image": "https://images.unsplash.com/photo-1576045057995-568f588f82fb?auto=format&fit=crop&q=80&w=200",
+        "nutrition": { "karbo": "7g", "protein": "5g", "lemak": "1g", "mineral": "4g", "air": "150ml", "vitamin": "A, C, K, Zat Besi", "kkal": "41" },
+        "healing": "Membantu pembentukan sel darah merah dan mencegah anemia."
+    },
+    {
+        "type": "Air",
+        "jenis": "bahan makanan",
+        "name": "Semangka Merah",
+        "image": "https://images.unsplash.com/photo-1587049352846-4a222e784d38?auto=format&fit=crop&q=80&w=200",
+        "nutrition": { "karbo": "0.11g", "protein": "0.01g", "lemak": "0.002g", "mineral": "0.005g", "air": "2.8ml", "vitamin": "A, C, Likopen", "kkal": "0.46" },
+        "healing": "Menjaga hidrasi tubuh dan membantu detoksifikasi ginjal.",
+        "menu_rekomendasi": "Jus Semangka Segar"
+    },
+    {
+        "jenis": "bahan makanan",
+        "type": "Vitamin",
+        "name": "Jeruk Sunkist",
+        "image": "https://images.unsplash.com/photo-1547514701-42782101795e?auto=format&fit=crop&q=80&w=200",
+        "nutrition": { "karbo": "0.15g", "protein": "0.01g", "lemak": "0.001g", "mineral": "0.005g", "air": "1.3ml", "vitamin": "C, Serat", "kkal": "0.62" },
+        "healing": "Meningkatkan daya tahan tubuh terhadap serangan virus dan flu.",
+        "menu_rekomendasi": "Orange Infused Water"
+    },
+    {
+        "jenis": "bahan makanan",
+        "type": "Karbohidrat",
+        "name": "Ubi Jalar Ungu",
+        "image": "https://images.unsplash.com/photo-1596040033229-a9821ebd058d?auto=format&fit=crop&q=80&w=200",
+        "nutrition": { "karbo": "0.25g", "protein": "0.02g", "lemak": "0.001g", "mineral": "0.015g", "air": "0.8ml", "vitamin": "A, Antosianin", "kkal": "1.1" },
+        "healing": "Kaya antioksidan untuk menangkal radikal bebas dan kanker.",
+        "menu_rekomendasi": "Ubi Ungu Kukus"
+    },
+    {
+        "jenis": "bahan makanan",
+        "type": "Karbohidrat",
+        "name": "Quinoa",
+        "image": "https://images.unsplash.com/photo-1586201375761-83865001e31c?auto=format&fit=crop&q=80&w=200",
+        "nutrition": { "karbo": "21g", "protein": "4.4g", "lemak": "1.9g", "mineral": "0.5g", "air": "71g", "vitamin": "B1, B2, B6, E", "kkal": "120" },
+        "healing": "Bebas gluten, menjaga indeks glikemik tetap stabil dan kesehatan pencernaan.",
+        "menu_rekomendasi": "Quinoa Salad Bowl"
+    },
+    {
+        "jenis": "bahan makanan",
+        "type": "Protein",
+        "name": "Tempe Kedelai",
+        "image": "https://images.unsplash.com/photo-1593001874117-c99c800e3eb7?auto=format&fit=crop&q=80&w=200",
+        "nutrition": { "karbo": "9g", "protein": "19g", "lemak": "11g", "mineral": "2.5g", "air": "55g", "vitamin": "B12, K", "kkal": "192" },
+        "healing": "Sumber probiotik alami untuk kesehatan usus dan mencegah osteoporosis.",
+        "menu_rekomendasi": "Tempe Bacem Tanpa Minyak"
+    },
+    {
+        "jenis": "menu makanan",
+        "type": "Protein",
+        "name": "Dada Ayam Panggang",
+        "image": "https://images.unsplash.com/photo-1604908176997-125f25cc6f3d?auto=format&fit=crop&q=80&w=200",
+        "nutrition": { "karbo": "0g", "protein": "31g", "lemak": "3.6g", "mineral": "1.2g", "air": "65g", "vitamin": "B3, B6", "kkal": "165" },
+        "healing": "Membantu pembentukan massa otot dan mempercepat metabolisme."
+    },
+    {
+        "jenis": "bahan makanan",
+        "type": "Lemak",
+        "name": "Kacang Almond",
+        "image": "https://images.unsplash.com/photo-1508817628294-5a453fa0b8fb?auto=format&fit=crop&q=80&w=200",
+        "nutrition": { "karbo": "21.7g", "protein": "21.2g", "lemak": "49.9g", "mineral": "3g", "air": "4.4g", "vitamin": "E, B2", "kkal": "579" },
+        "healing": "Menjaga kesehatan pembuluh darah dan mengontrol kadar kolesterol.",
+        "menu_rekomendasi": "Roasted Almond Butter"
+    },
+    {
+        "jenis": "bahan makanan",
+        "type": "Vitamin",
+        "name": "Brokoli Segar",
+        "image": "https://images.unsplash.com/photo-1459411621453-7b03977f4bfc?auto=format&fit=crop&q=80&w=200",
+        "nutrition": { "karbo": "6.6g", "protein": "2.8g", "lemak": "0.4g", "mineral": "0.9g", "air": "89g", "vitamin": "C, K, A", "kkal": "34" },
+        "healing": "Mendukung detoksifikasi tubuh dan meningkatkan kepadatan tulang.",
+        "menu_rekomendasi": "Brokoli Garlic Stir-fry"
+    },
+    {
+        "jenis": "bahan makanan",
+        "type": "Protein",
+        "name": "Kacang Edamame",
+        "image": "https://images.unsplash.com/photo-1541832676-9b763b0239ab?auto=format&fit=crop&q=80&w=200",
+        "nutrition": { "karbo": "10g", "protein": "11g", "lemak": "5g", "mineral": "1.5g", "air": "73g", "vitamin": "K, Folat", "kkal": "122" },
+        "healing": "Mengurangi gejala menopause dan menjaga kesehatan jantung.",
+        "menu_rekomendasi": "Edamame Salted Steam"
+    },
+    {
+        "jenis": "bahan makanan",
+        "type": "Lemak",
+        "name": "Minyak Zaitun (EVOO)",
+        "image": "https://images.unsplash.com/photo-1474979266404-7eaacbcd87c5?auto=format&fit=crop&q=80&w=200",
+        "nutrition": { "karbo": "0g", "protein": "0g", "lemak": "100g", "mineral": "0g", "air": "0g", "vitamin": "E, K", "kkal": "884" },
+        "healing": "Anti-inflamasi kuat untuk melindungi sel dari kerusakan radikal bebas.",
+        "menu_rekomendasi": "Dressing Salad Zaitun"
+    },
+    {
+        "jenis": "bahan makanan",
+        "type": "Protein",
+        "name": "Telur Ayam",
+        "image": "https://images.unsplash.com/photo-1582722653844-38dc46e580e5?auto=format&fit=crop&q=80&w=200",
+        "nutrition": { "karbo": "1.1g", "protein": "13g", "lemak": "11g", "mineral": "1g", "air": "74g", "vitamin": "D, B2, B12, Kolin", "kkal": "155" },
+        "healing": "Meningkatkan kesehatan fungsi saraf otak dan kualitas otot.",
+        "menu_rekomendasi": "Telur Rebus Setengah Matang"
+    },
+    {
+        "jenis": "bahan makanan",
+        "type": "Protein",
+        "name": "Yogurt Yunani Plain",
+        "image": "https://images.unsplash.com/photo-1488477181946-6428a0291777?auto=format&fit=crop&q=80&w=200",
+        "nutrition": { "karbo": "3.6g", "protein": "10g", "lemak": "0.4g", "mineral": "0.8g", "air": "85g", "vitamin": "B12, Kalsium", "kkal": "59" },
+        "healing": "Memperkuat sistem imun melalui kesehatan mikrobioma usus.",
+        "menu_rekomendasi": "Yogurt Berry Bowl"
+    },
+    {
+        "jenis": "bahan makanan",
+        "type": "Mineral",
+        "name": "Biji Bunga Matahari",
+        "image": "https://images.unsplash.com/photo-1595055530182-37887556a312?auto=format&fit=crop&q=80&w=200",
+        "nutrition": { "karbo": "20g", "protein": "21g", "lemak": "51g", "mineral": "3g", "air": "5g", "vitamin": "E, B1, Magnesium", "kkal": "584" },
+        "healing": "Membantu meredakan stres dan menjaga kesehatan tiroid.",
+        "menu_rekomendasi": "Kwaci Biji Matahari Sangrai"
+    },
+    {
+        "jenis": "bahan makanan",
+        "type": "Vitamin",
+        "name": "Buah Naga Merah",
+        "image": "https://images.unsplash.com/photo-1527325679961-247c13a7d733?auto=format&fit=crop&q=80&w=200",
+        "nutrition": { "karbo": "13g", "protein": "1.2g", "lemak": "0.4g", "mineral": "0.5g", "air": "84g", "vitamin": "C, Zat Besi", "kkal": "60" },
+        "healing": "Meningkatkan kadar hemoglobin dan melancarkan pencernaan.",
+        "menu_rekomendasi": "Dragon Fruit Smoothie Bowl"
+    },
+    {
+        "jenis": "bahan makanan",
+        "type": "Protein",
+        "name": "Ikan Kembung",
+        "image": "https://images.unsplash.com/photo-1519708227418-c8fd9a32b7a2?auto=format&fit=crop&q=80&w=200",
+        "nutrition": { "karbo": "0g", "protein": "18g", "lemak": "3.4g", "mineral": "1.5g", "air": "75g", "vitamin": "D, Omega-3", "kkal": "167" },
+        "healing": "Mendukung perkembangan otak anak dan kesehatan jantung dewasa.",
+        "menu_rekomendasi": "Pepes Ikan Kembung"
+    },
+    {
+        "jenis": "bahan makanan",
+        "type": "Karbohidrat",
+        "name": "Gandum Oatmeal",
+        "image": "https://images.unsplash.com/photo-1586439702132-46386481283d?auto=format&fit=crop&q=80&w=200",
+        "nutrition": { "karbo": "66g", "protein": "16.9g", "lemak": "6.9g", "mineral": "1.8g", "air": "8g", "vitamin": "B1, B5, Magnesium", "kkal": "389" },
+        "healing": "Menurunkan kolesterol LDL dan menjaga rasa kenyang lebih lama.",
+        "menu_rekomendasi": "Overnight Oats with Fruit"
+    },
+    {
+        "jenis": "bahan makanan",
+        "type": "Mineral",
+        "name": "Pisang Ambon",
+        "image": "https://images.unsplash.com/photo-1571771894821-ad996211fdf4?auto=format&fit=crop&q=80&w=200",
+        "nutrition": { "karbo": "22.8g", "protein": "1.1g", "lemak": "0.3g", "mineral": "0.8g", "air": "74g", "vitamin": "B6, C, Kalium", "kkal": "89" },
+        "healing": "Menjaga keseimbangan tekanan darah dan mencegah kram otot.",
+        "menu_rekomendasi": "Pisang Penyet Madu"
+    },
+    {
+        "jenis": "bahan makanan",
+        "type": "Mineral",
+        "name": "Kacang Hijau",
+        "image": "https://images.unsplash.com/photo-1545155167-93881a70422c?auto=format&fit=crop&q=80&w=200",
+        "nutrition": { "karbo": "63g", "protein": "24g", "lemak": "1.2g", "mineral": "3.5g", "air": "10g", "vitamin": "B1, Folat, Zat Besi", "kkal": "347" },
+        "healing": "Mencegah anemia dan baik untuk pertumbuhan rambut.",
+        "menu_rekomendasi": "Bubur Kacang Hijau Tanpa Santan"
+    },
+    {
+        "jenis": "bahan makanan",
+        "type": "Protein",
+        "name": "Tahu Putih",
+        "image": "https://images.unsplash.com/photo-1546069901-ba9599a7e63c?auto=format&fit=crop&q=80&w=200",
+        "nutrition": { "karbo": "1.9g", "protein": "8g", "lemak": "4.8g", "mineral": "1.2g", "air": "84g", "vitamin": "Kalsium, Magnesium", "kkal": "76" },
+        "healing": "Menjaga elastisitas pembuluh darah dan kesehatan tulang.",
+        "menu_rekomendasi": "Tahu Kukus Jamur"
+    },
+    {
+        "jenis": "bahan makanan",
+        "type": "Lemak",
+        "name": "Chia Seeds",
+        "image": "https://images.unsplash.com/photo-1584486150383-7e4479e3776e?auto=format&fit=crop&q=80&w=200",
+        "nutrition": { "karbo": "42g", "protein": "16.5g", "lemak": "30.7g", "mineral": "5g", "air": "6g", "vitamin": "Omega-3, Kalsium", "kkal": "486" },
+        "healing": "Meningkatkan fungsi kognitif dan menjaga kesehatan jantung.",
+        "menu_rekomendasi": "Chia Seed Pudding"
+    },
+    {
+        "jenis": "bahan makanan",
+        "type": "Vitamin",
+        "name": "Buah Pepaya",
+        "image": "https://images.unsplash.com/photo-1517282001574-f232c1368a7a?auto=format&fit=crop&q=80&w=200",
+        "nutrition": { "karbo": "10.8g", "protein": "0.5g", "lemak": "0.3g", "mineral": "0.4g", "air": "88g", "vitamin": "C, A, Folat", "kkal": "43" },
+        "healing": "Membantu metabolisme protein dan mencegah sembelit kronis.",
+        "menu_rekomendasi": "Salad Buah Pepaya"
+    },
+    {
+        "jenis": "bahan makanan",
+        "type": "Vitamin",
+        "name": "Hati Ayam",
+        "image": "https://images.unsplash.com/photo-1613244265721-a3f1694f4751?auto=format&fit=crop&q=80&w=200",
+        "nutrition": { "karbo": "0.7g", "protein": "16.9g", "lemak": "4.8g", "mineral": "1.5g", "air": "75g", "vitamin": "A, B12, Zat Besi", "kkal": "116" },
+        "healing": "Sangat baik untuk pemulihan setelah sakit dan regenerasi darah.",
+        "menu_rekomendasi": "Hati Ayam Tumis Buncis"
+    },
+    {
+        "jenis": "bahan makanan",
+        "type": "Mineral",
+        "name": "Udang Segar",
+        "image": "https://images.unsplash.com/photo-1559737558-2f5a35f4523b?auto=format&fit=crop&q=80&w=200",
+        "nutrition": { "karbo": "0.9g", "protein": "20.3g", "lemak": "1.7g", "mineral": "1.2g", "air": "75g", "vitamin": "Selenium, B12", "kkal": "99" },
+        "healing": "Menjaga fungsi kelenjar tiroid dan sistem kekebalan tubuh.",
+        "menu_rekomendasi": "Udang Panggang Lemon"
+    },
+    {
+        "jenis": "bahan makanan",
+        "type": "Karbohidrat",
+        "name": "Jagung Manis",
+        "image": "https://images.unsplash.com/photo-1551754655-cd27e38d2076?auto=format&fit=crop&q=80&w=200",
+        "nutrition": { "karbo": "18.7g", "protein": "3.2g", "lemak": "1.2g", "mineral": "0.6g", "air": "76g", "vitamin": "Lutein, Zeaxanthin", "kkal": "86" },
+        "healing": "Melindungi retina mata dari kerusakan akibat cahaya biru.",
+        "menu_rekomendasi": "Jagung Rebus Serut"
+    },
+    {
+        "jenis": "bahan makanan",
+        "type": "Vitamin",
+        "name": "Wortel Segar",
+        "image": "https://images.unsplash.com/photo-1598170845058-32b9d6a5da37?auto=format&fit=crop&q=80&w=200",
+        "nutrition": { "karbo": "9.6g", "protein": "0.9g", "lemak": "0.2g", "mineral": "0.8g", "air": "88g", "vitamin": "A, K1, B6", "kkal": "41" },
+        "healing": "Menjaga kesehatan mata dan mempercepat regenerasi sel kulit.",
+        "menu_rekomendasi": "Jus Wortel Murni"
+    },
+    {
+        "jenis": "bahan makanan",
+        "type": "Protein",
+        "name": "Kacang Merah",
+        "image": "https://images.unsplash.com/photo-1551462147-3a900cad94fa?auto=format&fit=crop&q=80&w=200",
+        "nutrition": { "karbo": "60g", "protein": "24g", "lemak": "0.8g", "mineral": "3.8g", "air": "11g", "vitamin": "B1, Kalium", "kkal": "333" },
+        "healing": "Membantu menstabilkan gula darah dan menyehatkan ginjal.",
+        "menu_rekomendasi": "Sup Kacang Merah"
+    },
+    {
+        "jenis": "bahan makanan",
+        "type": "Protein",
+        "name": "Daging Sapi Sirloin",
+        "image": "https://images.unsplash.com/photo-1603048297172-c92544798d5e?auto=format&fit=crop&q=80&w=200",
+        "nutrition": { "karbo": "0g", "protein": "26g", "lemak": "15g", "mineral": "1.1g", "air": "58g", "vitamin": "B12, Zinc", "kkal": "250" },
+        "healing": "Meningkatkan kekuatan otot dan mempercepat penyembuhan luka.",
+        "menu_rekomendasi": "Steak Sapi Panggang"
+    },
+    {
+        "jenis": "bahan makanan",
+        "type": "Karbohidrat",
+        "name": "Kentang Rebus",
+        "image": "https://images.unsplash.com/photo-1518977676601-b53f02bad675?auto=format&fit=crop&q=80&w=200",
+        "nutrition": { "karbo": "17.5g", "protein": "2g", "lemak": "0.1g", "mineral": "0.8g", "air": "79g", "vitamin": "C, Kalium", "kkal": "77" },
+        "healing": "Menjaga keseimbangan elektrolit dan tekanan darah normal.",
+        "menu_rekomendasi": "Mashed Potato Garlic"
+    },
+    {
+        "jenis": "bahan makanan",
+        "type": "Vitamin",
+        "name": "Blueberry",
+        "image": "https://images.unsplash.com/photo-1497534446932-c946e7316ad1?auto=format&fit=crop&q=80&w=200",
+        "nutrition": { "karbo": "14.5g", "protein": "0.7g", "lemak": "0.3g", "mineral": "0.2g", "air": "84g", "vitamin": "C, K, Antosianin", "kkal": "57" },
+        "healing": "Melindungi fungsi otak dari penuaan dini dan oksidasi sel.",
+        "menu_rekomendasi": "Blueberry Greek Yogurt"
+    },
+    {
+        "jenis": "bahan makanan",
+        "type": "Lemak",
+        "name": "Kacang Walnut",
+        "image": "https://images.unsplash.com/photo-1589733423870-2165eb4f0ca2?auto=format&fit=crop&q=80&w=200",
+        "nutrition": { "karbo": "13.7g", "protein": "15.2g", "lemak": "65.2g", "mineral": "1.8g", "air": "4g", "vitamin": "ALA Omega-3, B6", "kkal": "654" },
+        "healing": "Meningkatkan daya ingat dan menurunkan peradangan otak.",
+        "menu_rekomendasi": "Walnut Salad Topping"
+    },
+    {
+        "jenis": "bahan makanan",
+        "type": "Vitamin",
+        "name": "Tomat Merah",
+        "image": "https://images.unsplash.com/photo-1546069901-5ec6a7097f11?auto=format&fit=crop&q=80&w=200",
+        "nutrition": { "karbo": "3.9g", "protein": "0.9g", "lemak": "0.2g", "mineral": "0.5g", "air": "94g", "vitamin": "C, Likopen, K", "kkal": "18" },
+        "healing": "Menurunkan risiko penyakit jantung dan kanker prostat.",
+        "menu_rekomendasi": "Fresh Tomato Soup"
+    },
+    {
+        "jenis": "bahan makanan",
+        "type": "Karbohidrat",
+        "name": "Beras Hitam",
+        "image": "https://images.unsplash.com/photo-1536304993881-ff6e9eefa2a6?auto=format&fit=crop&q=80&w=200",
+        "nutrition": { "karbo": "34g", "protein": "4g", "lemak": "1.5g", "mineral": "1g", "air": "12g", "vitamin": "E, Antosianin", "kkal": "160" },
+        "healing": "Memperbaiki kerusakan sel DNA dan menurunkan peradangan.",
+        "menu_rekomendasi": "Nasi Hitam Kukus"
+    },
+    {
+        "jenis": "bahan makanan",
+        "type": "Protein",
+        "name": "Ikan Tuna",
+        "image": "https://images.unsplash.com/photo-1501595091296-3aa970afb3ff?auto=format&fit=crop&q=80&w=200",
+        "nutrition": { "karbo": "0g", "protein": "28g", "lemak": "0.6g", "mineral": "1.3g", "air": "70g", "vitamin": "D, B3, Selenium", "kkal": "132" },
+        "healing": "Meningkatkan kesehatan otot dan kepadatan tulang.",
+        "menu_rekomendasi": "Tuna Grilled Steak"
+    },
+    {
+        "jenis": "bahan makanan",
+        "type": "Vitamin",
+        "name": "Asparagus",
+        "image": "https://images.unsplash.com/photo-1515471209610-dae1c92d814e?auto=format&fit=crop&q=80&w=200",
+        "nutrition": { "karbo": "3.9g", "protein": "2.2g", "lemak": "0.1g", "mineral": "0.7g", "air": "92g", "vitamin": "K, Folat, A", "kkal": "20" },
+        "healing": "Membantu pengeluaran racun melalui urin dan kesehatan saraf.",
+        "menu_rekomendasi": "Asparagus Garlic Roast"
+    },
+    {
+        "jenis": "bahan makanan",
+        "type": "Mineral",
+        "name": "Kacang Mete",
+        "image": "https://images.unsplash.com/photo-1536592248560-6486975fbdfd?auto=format&fit=crop&q=80&w=200",
+        "nutrition": { "karbo": "30g", "protein": "18g", "lemak": "44g", "mineral": "2.5g", "air": "5g", "vitamin": "K, Magnesium, Tembaga", "kkal": "553" },
+        "healing": "Menyehatkan kesehatan gigi dan memperkuat metabolisme energi.",
+        "menu_rekomendasi": "Kacang Mete Oven"
+    },
+    {
+        "jenis": "bahan makanan",
+        "type": "Vitamin",
+        "name": "Buah Apel",
+        "image": "https://images.unsplash.com/photo-1560806887-1e4cd0b6bcd6?auto=format&fit=crop&q=80&w=200",
+        "nutrition": { "karbo": "13.8g", "protein": "0.3g", "lemak": "0.2g", "mineral": "0.3g", "air": "85g", "vitamin": "C, Pektin", "kkal": "52" },
+        "healing": "Meningkatkan kapasitas paru-paru dan menjaga kolesterol.",
+        "menu_rekomendasi": "Apple Cinnamon Slices"
+    },
+    {
+        "jenis": "bahan makanan",
+        "type": "Mineral",
+        "name": "Jamur Tiram",
+        "image": "https://images.unsplash.com/photo-1594315522277-f9a44e88babb?auto=format&fit=crop&q=80&w=200",
+        "nutrition": { "karbo": "6g", "protein": "3.3g", "lemak": "0.4g", "mineral": "1g", "air": "89g", "vitamin": "B3, B5, D", "kkal": "33" },
+        "healing": "Modulasi sistem imun dan menurunkan tekanan darah.",
+        "menu_rekomendasi": "Pepes Jamur Tiram"
+    },
+    {
+        "jenis": "bahan makanan",
+        "type": "Mineral",
+        "name": "Keju Cheddar",
+        "image": "https://images.unsplash.com/photo-1618067425547-73418804369e?auto=format&fit=crop&q=80&w=200",
+        "nutrition": { "karbo": "1.3g", "protein": "25g", "lemak": "33g", "mineral": "3.7g", "air": "37g", "vitamin": "A, Kalsium", "kkal": "403" },
+        "healing": "Mencegah gigi berlubang dan osteoporosis pada usia dini.",
+        "menu_rekomendasi": "Baked Cheese Topping"
+    },
+    {
+        "jenis": "menu makanan",
+        "type": "Vitamin",
+        "name": "Kangkung Tumis",
+        "image": "https://images.unsplash.com/photo-1626700051175-6818013e1d4f?auto=format&fit=crop&q=80&w=200",
+        "nutrition": { "karbo": "3.1g", "protein": "2.6g", "lemak": "0.4g", "mineral": "1.1g", "air": "90g", "vitamin": "A, Zat Besi", "kkal": "19" },
+        "healing": "Membantu menenangkan saraf dan mengatasi insomnia ringan."
+    },
+    {
+        "jenis": "bahan makanan",
+        "type": "Mineral",
+        "name": "Susu Sapi Rendah Lemak",
+        "image": "https://images.unsplash.com/photo-1550586678-f71ee5dc7d7e?auto=format&fit=crop&q=80&w=200",
+        "nutrition": { "karbo": "5g", "protein": "3.4g", "lemak": "1g", "mineral": "0.7g", "air": "90g", "vitamin": "D, Kalsium, B12", "kkal": "42" },
+        "healing": "Memperkuat struktur tulang dan mendukung fungsi otot jantung.",
+        "menu_rekomendasi": "Low Fat Milk Shake"
+    },
+    {
+        "jenis": "bahan makanan",
+        "type": "Mineral",
+        "name": "Kerang Darah",
+        "image": "https://images.unsplash.com/photo-1533134242443-d4fd215305ad?auto=format&fit=crop&q=80&w=200",
+        "nutrition": { "karbo": "4.7g", "protein": "14.7g", "lemak": "1.2g", "mineral": "2.4g", "air": "77g", "vitamin": "B12, Zat Besi", "kkal": "101" },
+        "healing": "Mengobati anemia dan menjaga daya tahan tubuh.",
+        "menu_rekomendasi": "Kerang Rebus Jahe"
+    },
+    {
+        "jenis": "menu makanan",
+        "type": "Karbohidrat",
+        "name": "Ubi Cilembu Bakar",
+        "image": "https://images.unsplash.com/photo-1605037537549-39906d4e2874?auto=format&fit=crop&q=80&w=200",
+        "nutrition": { "karbo": "25g", "protein": "1.6g", "lemak": "0.1g", "mineral": "1.2g", "air": "72g", "vitamin": "A, C", "kkal": "103" },
+        "healing": "Memberikan energi yang konstan dan baik untuk kesehatan mata."
+    },
+    {
+        "jenis": "bahan makanan",
+        "type": "Vitamin",
+        "name": "Terong Ungu",
+        "image": "https://images.unsplash.com/photo-1590212151175-e58edd96185b?auto=format&fit=crop&q=80&w=200",
+        "nutrition": { "karbo": "5.9g", "protein": "1g", "lemak": "0.2g", "mineral": "0.5g", "air": "92g", "vitamin": "Nasunin, K", "kkal": "25" },
+        "healing": "Antioksidan tinggi untuk melindungi sel-sel saraf otak.",
+        "menu_rekomendasi": "Terong Panggang Sambal"
+    },
+    {
+        "jenis": "bahan makanan",
+        "type": "Lemak",
+        "name": "Kacang Tanah",
+        "image": "https://images.unsplash.com/photo-1552345387-9a140b6e799a?auto=format&fit=crop&q=80&w=200",
+        "nutrition": { "karbo": "16g", "protein": "26g", "lemak": "49g", "mineral": "2.3g", "air": "7g", "vitamin": "Resveratrol, E", "kkal": "567" },
+        "healing": "Mencegah penyakit degeneratif dan penuaan dini.",
+        "menu_rekomendasi": "Kacang Tanah Sangrai"
+    },
+    {
+        "jenis": "bahan makanan",
+        "type": "Vitamin",
+        "name": "Labu Kuning",
+        "image": "https://images.unsplash.com/photo-1506806732259-39c2d4a32127?auto=format&fit=crop&q=80&w=200",
+        "nutrition": { "karbo": "6.5g", "protein": "1g", "lemak": "0.1g", "mineral": "0.8g", "air": "91g", "vitamin": "Beta-karoten, C", "kkal": "26" },
+        "healing": "Meningkatkan imunitas dan kesehatan kulit.",
+        "menu_rekomendasi": "Sup Labu Kuning"
+    },
+    {
+        "jenis": "bahan makanan",
+        "type": "Mineral",
+        "name": "Cokelat Hitam (80%)",
+        "image": "https://images.unsplash.com/photo-1511381939415-e44015466834?auto=format&fit=crop&q=80&w=200",
+        "nutrition": { "karbo": "46g", "protein": "8g", "lemak": "43g", "mineral": "2.2g", "air": "1g", "vitamin": "Flavonoid, Zat Besi", "kkal": "598" },
+        "healing": "Meningkatkan mood dan melancarkan sirkulasi darah.",
+        "menu_rekomendasi": "Hot Dark Chocolate"
+    },
+    {
+        "jenis": "bahan makanan",
+        "type": "Vitamin",
+        "name": "Paprika Merah",
+        "image": "https://images.unsplash.com/photo-1563206767-5b18f218e7de?auto=format&fit=crop&q=80&w=200",
+        "nutrition": { "karbo": "6g", "protein": "1g", "lemak": "0.3g", "mineral": "0.5g", "air": "92g", "vitamin": "C, A, B6", "kkal": "31" },
+        "healing": "Mendukung produksi kolagen dan kesehatan gusi.",
+        "menu_rekomendasi": "Paprika Sauté"
+    },
+    {
+        "jenis": "bahan makanan",
+        "type": "Mineral",
+        "name": "Lobak Putih",
+        "image": "https://images.unsplash.com/photo-1588611962310-8dac00206606?auto=format&fit=crop&q=80&w=200",
+        "nutrition": { "karbo": "3.4g", "protein": "0.7g", "lemak": "0.1g", "mineral": "0.6g", "air": "95g", "vitamin": "C, Enzim Diastase", "kkal": "16" },
+        "healing": "Membantu melarutkan lendir saat flu dan menyehatkan ginjal.",
+        "menu_rekomendasi": "Sup Lobak Bening"
+    },
+    {
+        "jenis": "bahan makanan",
+        "type": "Protein",
+        "name": "Daging Bebek",
+        "image": "https://images.unsplash.com/photo-1516100882582-76c9a58b35cb?auto=format&fit=crop&q=80&w=200",
+        "nutrition": { "karbo": "0g", "protein": "19g", "lemak": "28g", "mineral": "1.1g", "air": "51g", "vitamin": "B6, B12, Zat Besi", "kkal": "337" },
+        "healing": "Meningkatkan daya tahan tubuh dan menghangatkan tubuh.",
+        "menu_rekomendasi": "Bebek Panggang Oven"
+    },
+    {
+        "jenis": "bahan makanan",
+        "type": "Vitamin",
+        "name": "Buah Kiwi",
+        "image": "https://images.unsplash.com/photo-1585059895524-72359e061381?auto=format&fit=crop&q=80&w=200",
+        "nutrition": { "karbo": "15g", "protein": "1.1g", "lemak": "0.5g", "mineral": "0.6g", "air": "83g", "vitamin": "C, K, E", "kkal": "61" },
+        "healing": "Membantu tidur lebih nyenyak dan memperlancar pencernaan.",
+        "menu_rekomendasi": "Fresh Kiwi Juice"
+    },
+    {
+        "jenis": "bahan makanan",
+        "type": "Mineral",
+        "name": "Bawang Putih",
+        "image": "https://images.unsplash.com/photo-1540148426945-6cf22a6b2383?auto=format&fit=crop&q=80&w=200",
+        "nutrition": { "karbo": "33g", "protein": "6.4g", "lemak": "0.5g", "mineral": "1.5g", "air": "59g", "vitamin": "Alisin, C, B6", "kkal": "149" },
+        "healing": "Antibiotik alami dan menurunkan tekanan darah tinggi.",
+        "menu_rekomendasi": "Garlic Roasted Chicken"
+    },
+    {
+        "jenis": "bahan makanan",
+        "type": "Protein",
+        "name": "Kedelai Hitam",
+        "image": "https://images.unsplash.com/photo-1563636619-e9107da6a1bb?auto=format&fit=crop&q=80&w=200",
+        "nutrition": { "karbo": "30g", "protein": "36g", "lemak": "20g", "mineral": "5g", "air": "8g", "vitamin": "Isoflavon, Antosianin", "kkal": "341" },
+        "healing": "Menjaga keseimbangan hormon dan kesehatan prostat.",
+        "menu_rekomendasi": "Susu Kedelai Hitam"
+    },
+    {
+        "jenis": "menu makanan",
+        "type": "Protein",
+        "name": "Ikan Lele Panggang",
+        "image": "https://images.unsplash.com/photo-1621272036427-46386481283d?auto=format&fit=crop&q=80&w=200",
+        "nutrition": { "karbo": "0g", "protein": "18g", "lemak": "2.9g", "mineral": "1.1g", "air": "78g", "vitamin": "B12, Fosfor", "kkal": "105" },
+        "healing": "Mendukung pembentukan DNA sel dan kesehatan saraf."
+    }
+]

@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NutriLife - Status Nutrisi</title>
+    <script>
+        // Terapkan tema secara instan sebelum halaman dirender untuk mencegah "flash"
+        document.documentElement.setAttribute("data-theme", localStorage.getItem("theme") || "light");
+    </script>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;600;700;800&display=swap" rel="stylesheet">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="nav-left">
+            <div class="custom-logo"><div class="logo-leaf"></div></div>
+            <h2 class="logo-text">Nutri<span>Life</span></h2>
+        </div>
+        <div class="nav-right">
+            <button class="search-btn" title="Cari Menu" onclick="window.location.href='search.html'">🔍</button>
+            <div class="theme-control-nav">
+                <input type="checkbox" id="theme-toggle" hidden />
+                <label for="theme-toggle" class="theme-btn-nav"><span class="theme-icon">☀️</span></label>
+            </div>
+        </div>
+    </nav>
+
+    <div id="app" class="app-wrapper hidden fade-init">
+        <main class="nutrisi-main-content">
+            <h2 class="section-title" style="width: 100%; max-width: 500px;">Analisis <span>Nutrisi Bahan</span></h2>
+            <p class="loading-msg" style="width: 100%; max-width: 500px; margin-top: -15px; margin-bottom: 10px; text-align: left;">Pilih salah satu bahan makanan untuk melihat rincian kandungan gizi dan manfaat kesehatannya secara mendalam.</p>
+
+            <div class="upload-container">
+                <select id="foodSelect" class="food-select-btn">
+                    <option value="" disabled selected>🥗 Pilih Bahan Makanan.....</option>
+                </select>
+            </div>
+
+            <div id="image-preview-container" class="image-preview-container">
+                <div id="preview-placeholder" class="preview-placeholder">FOTO</div>
+                <img id="preview-img" src="" alt="Pratinjau Makanan" class="hidden-section">
+            </div>
+
+            <section id="nutrition-result-section" class="result-card">
+                <div class="result-header">
+                    <h3 id="food-name">Pilih Bahan Makanan</h3>
+                    <p style="font-size: 0.8rem; color: #888;">Analisis Kandungan Nutrisi per 100g</p>
+                </div>
+            
+                <div class="nutrition-grid" style="display: grid; grid-template-columns: repeat(3, 1fr); gap: 12px;">
+                    <div class="nutri-item">
+                        <span class="nutri-icon">💎</span>
+                        <span class="label" style="font-size: 0.6rem; opacity: 0.7;">Mineral</span>
+                        <span id="res-mineral" class="value" style="font-weight: 800;">-</span>
+                    </div>
+                    <div class="nutri-item">
+                        <span class="nutri-icon">🍗</span>
+                        <span class="label" style="font-size: 0.6rem; opacity: 0.7;">Protein</span>
+                        <span id="res-protein" class="value" style="font-weight: 800;">-</span>
+                    </div>
+                    <div class="nutri-item">
+                        <span class="nutri-icon">🍞</span>
+                        <span class="label" style="font-size: 0.6rem; opacity: 0.7;">Karbo</span>
+                        <span id="res-karbo" class="value" style="font-weight: 800;">-</span>
+                    </div>
+                    <div class="nutri-item">
+                        <span class="nutri-icon">🥑</span>
+                        <span class="label" style="font-size: 0.6rem; opacity: 0.7;">Lemak</span>
+                        <span id="res-lemak" class="value" style="font-weight: 800;">-</span>
+                    </div>
+                    <div class="nutri-item">
+                        <span class="nutri-icon">💊</span>
+                        <span class="label" style="font-size: 0.6rem; opacity: 0.7;">Vitamin</span>
+                        <span id="res-vitamin" class="value" style="font-weight: 800;">-</span>
+                    </div>
+                    <div class="nutri-item">
+                        <span class="nutri-icon">💧</span>
+                        <span class="label" style="font-size: 0.6rem; opacity: 0.7;">Air</span>
+                        <span id="res-air" class="value" style="font-weight: 800;">-</span>
+                    </div>
+                </div>
+            
+                <div class="summary-box">
+                    <span class="particle-emoji p1">🌿</span>
+                    <span class="particle-emoji p2">🍎</span>
+                    <span class="particle-emoji p3">✨</span>
+                
+                    <div class="summary-title">
+                        <span>📝</span> RINGKASAN ANALISIS
+                    </div>
+                
+                    <p id="res-summary-text" class="summary-text">
+                        Silakan pilih bahan makanan untuk melihat detail manfaat kesehatan.
+                    </p>
+                
+                    <div class="menu-box" style="margin-top: auto;">
+                        <div class="menu-label">🍽️ REKOMENDASI MENU</div>
+                        <div id="res-menu" class="menu-value">-</div>
+                    </div>
+                </div>
+            </section>
+        </main>
+    </div>
+    
+    <script type="module" src="nutrisi.js"></script>
+
+    <nav class="bottom-nav">
+        <div class="nav-item" data-target="home">
+            <span class="icon">🏠</span>
+            <span>Home</span>
+        </div>
+        <div class="nav-item active" data-target="nutrition">
+            <span class="icon">🍴</span>
+            <span>Nutrisi</span>
+        </div>
+        <div class="nav-item" data-target="food">
+            <span class="icon">🥗</span>
+            <span>Makanan</span>
+        </div>
+    </nav>
+    <script type="module" src="script.js"></script>
+</body>
+</html>

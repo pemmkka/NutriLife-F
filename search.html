@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="id">
+
+<head>
+    <script>
+        // Script ini harus berada paling atas di dalam <head>
+        (function () {
+            const savedTheme = localStorage.getItem("theme") || "light";
+            document.documentElement.setAttribute("data-theme", savedTheme);
+        })();
+    </script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NutriLife - Pencarian Global</title>
+    <script>
+        document.documentElement.setAttribute("data-theme", localStorage.getItem("theme") || "light");
+    </script>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;600;700;800&display=swap"
+        rel="stylesheet">
+
+</head>
+
+<body>
+    <nav class="navbar">
+        <div class="nav-left" onclick="window.history.back()" style="cursor:pointer">
+            <span style="font-size: 1.2rem; margin-right: 10px;">⬅️</span>
+            <h2 class="logo-text">Kem<span>bali</span></h2>
+        </div>
+    </nav>
+
+    <div class="search-page-container">
+        <div class="search-header">
+            <h1 style="font-size: 1.8rem; font-weight: 800;">Cari Sesuatu?</h1>
+            <p style="opacity: 0.6;">Temukan bahan makanan atau menu sehat.</p>
+        </div>
+
+        <div class="search-input-wrapper">
+            <span>🔍</span>
+            <input type="text" id="fullSearchInput" placeholder="Ketik nama bahan atau manfaat..." autofocus>
+        </div>
+
+        <div id="resultsCount" class="results-info">Ketik minimal 2 karakter...</div>
+
+        <div id="fullResultsGrid" class="results-grid">
+        </div>
+    </div>
+
+    <div id="nutritionModal" class="modal-overlay">
+        <div class="modal-content">
+            <button class="close-modal">&times;</button>
+    
+            <div class="modal-body">
+                <div class="modal-image-wrapper">
+                    <img id="m-img" src="" alt="Gambar Makanan">
+                    <div class="modal-badge-container">
+                        <span id="m-badge" class="badge-type">Jenis</span>
+                    </div>
+                </div>
+            
+                <div class="modal-title-section">
+                    <h2 id="m-title" class="food-title-colored">Nama Makanan</h2>
+                    <div class="divider-line"></div>
+                    <p class="modal-subtitle">Analisis Kandungan Nutrisi per 100g</p>
+                </div>
+            
+                <div class="nutrition-grid-modal">
+                    <div class="nutri-item-modal"><span>💎</span><small>Mineral</small><b id="m-mineral">-</b></div>
+                    <div class="nutri-item-modal"><span>🍗</span><small>Protein</small><b id="m-protein">-</b></div>
+                    <div class="nutri-item-modal"><span>🍞</span><small>Karbo</small><b id="m-karbo">-</b></div>
+                    <div class="nutri-item-modal"><span>🥑</span><small>Lemak</small><b id="m-lemak">-</b></div>
+                    <div class="nutri-item-modal"><span>💊</span><small>Vitamin</small><b id="m-vitamin">-</b></div>
+                    <div class="nutri-item-modal"><span>💧</span><small>Air</small><b id="m-air">-</b></div>
+                </div>
+    
+                <div class="summary-box-modal">
+                    <span class="particle-emoji p1">🌿</span>
+                    <span class="particle-emoji p2">🍎</span>
+                    <span class="particle-emoji p3">✨</span>
+                    <div class="summary-title">📝 RINGKASAN ANALISIS</div>
+                    <p id="m-summary" class="summary-text">-</p>
+    
+                    <div class="menu-box-modal">
+                        <div class="menu-label">🍽️ REKOMENDASI MENU</div>
+                        <div id="m-menu" class="menu-value">-</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <script src="search.js"></script>
+</body>
+
+</html>
