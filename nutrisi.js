@@ -22,7 +22,7 @@ async function initFoodPicker() {
         const foodSelect = document.getElementById('foodSelect');
         if (foodSelect && bahanMakanan.length > 0) {
             // Bersihkan dropdown dan tambahkan opsi default
-            foodSelect.innerHTML = '<option value="" disabled selected>🥗 Pilih Bahan Makanan.....</option>';
+            foodSelect.innerHTML = '<option value="" disabled selected>🥗 Foto Bahan Makanan.....</option>';
 
             bahanMakanan.forEach(item => {
                 const option = document.createElement('option');
