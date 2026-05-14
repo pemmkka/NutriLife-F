@@ -338,6 +338,10 @@ function renderRecommendations(filter = "Rekomendasi Makanan", query = "") {
                         <i style="color: ${nutriColors[item.type] || 'var(--primary)'}">🛡️ MANFAAT KESEHATAN</i>
                         ${item.healing}
                     </div>
+                    <div class="risk-box">
+                        <i style="color: #FF6961">⚠️ PERINGATAN / RISIKO</i>
+                        ${item.risiko || "Tidak ada risiko khusus."}
+                    </div>
                 </div>
             </div>
         `;
