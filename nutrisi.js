@@ -82,6 +82,7 @@ function displayNutritionResult(item) {
     safeSetText('res-vitamin', item.nutrition.vitamin);
     safeSetText('res-air', item.nutrition.air);
     safeSetText('res-summary-text', item.healing);
+    safeSetText('res-risk', item.risiko);
     safeSetText('res-menu', item.menu_rekomendasi);
 
     // 2. Tambahkan class 'active' ke semua bingkai agar warnanya berubah
@@ -97,6 +98,9 @@ function displayNutritionResult(item) {
     // Isi ringkasan/healing
     safeSetText('res-summary-text', item.healing || "Bermanfaat bagi kesehatan tubuh.");
     
+    // Isi resiko/peringatan
+    safeSetText('res-risk', item.risiko || "Tidak ada risiko khusus.");
+
     // Isi rekomendasi menu
     safeSetText('res-menu', item.menu_rekomendasi || "-");
 
