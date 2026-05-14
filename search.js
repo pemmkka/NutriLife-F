@@ -183,6 +183,12 @@ document.addEventListener('DOMContentLoaded', () => {
         document.getElementById('m-air').innerText = item.nutrition.air;
         
         document.getElementById('m-summary').innerText = item.healing;
+        
+        const riskEl = document.getElementById('m-risk');
+        if (riskEl) {
+            riskEl.innerText = item.risiko || "Tidak ada risiko khusus.";
+        }
+        
         document.getElementById('m-menu').innerText = item.menu_rekomendasi || "-";
 
         // Tampilkan Modal dengan Animasi Zoom In
